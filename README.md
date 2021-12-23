@@ -5,11 +5,7 @@ Hoe kan je verschillende delen (parts) van een web-pagina
 onderverdelen over verschillende files zonder het overzicht 
 te verliezen?
 ```
-## Voordeel
-Het grootste voordeel van deze manier van werken is de 
-onderhoudbaarheid. Wanneer bijvoorbeeld een aanpassing aan de head van de 
-pagina dient te gebeuren moet slechts 1 file worden aangepast. 
-Hetzelfde voor elk ander deel van de pagina.
+
 ## Template
 Maak een template, deze bepaald de structuur van de pagina.
 Deze template gaat de verschillende delen ophalen (include). 
@@ -86,3 +82,11 @@ if (1 === 1) {
     include 'Presentation/template.php';
 }
 ```
+## Voordeel
+Het grootste voordeel van deze manier van werken is de
+onderhoudbaarheid. Wanneer bijvoorbeeld een aanpassing aan de head van de
+pagina dient te gebeuren moet slechts 1 file worden aangepast.
+Hetzelfde voor elk ander deel van de pagina.
+
+Je collega developer gaat heel snel zijn weg kunnen vinden en aanpassingen 
+op de juiste plaats kunnen doen.
