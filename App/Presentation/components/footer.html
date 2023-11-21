@@ -1,0 +1,3 @@
+<footer>
+    &copy; VDAB footer
+</footer>
