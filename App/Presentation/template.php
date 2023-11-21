@@ -4,7 +4,7 @@
 <body>
 <?php require_once "App/Presentation/components/menu.php"; ?>
 <div class="content">
-    <h1>Template</h1>
+    <?php require_once $view; ?>
 </div>
 <?php require_once "App/Presentation/components/footer.html"; ?>
 </body>

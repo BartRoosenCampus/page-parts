@@ -3,16 +3,6 @@ body {
     font-family: "Verdana Pro Light", sans-serif;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-}
-
-li {
-    display: inline;
-    padding: 1em;
-}
-
 .content {
     width: 80%;
     margin: 0 auto;
@@ -21,9 +11,49 @@ li {
 footer {
     height: 2em;
     text-align: center;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    background-color: #c0bdbd;
+    background-color: black;
+    color: whitesmoke;
     padding: 1em 0 .5em 0;
+}
+
+nav {
+    background-color: black;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+nav ul li a:hover {
+    color: green;
+}
+
+.grid-1-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+}
+
+.grid-2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1em;
+}
+
+.source {
+    background-color: whitesmoke;
+    padding: .5em;
 }
